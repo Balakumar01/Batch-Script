@@ -1,0 +1,15 @@
+How to open browsers using batch files
+
+• Open a notepad file. Paste the below mentioned code
+@echo off
+%SystemRoot%\explorer.exe ""
+
+• Open browser in search bar. Open file location
+
+• Right click on browsers exe file.
+
+• Copy and paste the Location in notepad between""
+• Save the notepad in .bat file format
+File type: ALL FILES
+
+• Now open the saved the batch file. It will open the browser
