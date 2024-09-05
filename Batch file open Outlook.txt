@@ -1,0 +1,22 @@
+Batch file open Outlook
+
+ Open a notepad file. Paste the below mentioned code
+
+@echo off
+%SystemRoot%\explorer.exe ""
+
+• Open outlook in search bar ==> Open file location
+
+• Right click on outlook file.
+
+• Copy and paste the Location between"". Also add the file name and format.
+• Here it was shown as lnk format. Add as same
+
+• Save the notepad in .bat file format
+File type: ALL FILES
+
+• Now open the saved the batch file the outlook will get opened
+
+What is lnk format?
+
+LNK is a file extension for a shortcut file used by Microsoft Windows to point to an executable file LNK stands for Link Shortcut files are used as a direct link to an Executable file; instead of having to navigate to the executable
