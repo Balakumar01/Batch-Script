@@ -1,0 +1,35 @@
+Restart computer with batch script
+
+Step 01: Open notepad application
+
+Step 02: Copy and paste the below given Command
+@echo OFF
+
+ECHO "Choose an option .."
+
+ECHO "1 = Logoff"
+
+ECHO "2 = Reboot"
+
+ECHO "3 = Hibernate"
+
+ECHO "4 = Shutdown"
+
+SET /p option=Choose one option-
+
+IF %option%==1 SHUTDOWN /l
+
+IF %option%==2 SHUTDOWN -r -t 10
+
+IF %option%==3 SHUTDOWN /h
+
+IF %option%==4 SHUTDOWN /s /f /t 0
+
+PAUSE
+
+Step 03: Save as the file in All files
+Step 04: Save with .bat
+
+Step 05: We can the see the batch file icon in saved path
+
+Step 06: Double click to run the program
