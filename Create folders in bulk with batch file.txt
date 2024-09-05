@@ -1,0 +1,16 @@
+Create folders in bulk with batch file
+
+Step 01: Open notepad application
+Step 02: Type md in excel cell(give a space after md), and paste the folders names that to create
+Step 03: Drag the md to end
+
+Step 04: Use the given formula to merge these format
+
+                =CONCATENATE()
+Step 05: Copy and paste the formatted command in a notepad
+
+Step 06: Save as the file in All files
+Step 07: Save with .bat
+
+Step 08: We can the see the batch file icon in saved path
+Step 09: Double click to run the program, Our folders will be create
