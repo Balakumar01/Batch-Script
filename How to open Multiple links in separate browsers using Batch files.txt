@@ -1,0 +1,18 @@
+How to open Multiple links in separate browsers using Batch files
+
+Step 01: Open notepad application
+
+Step 02: Paste the below given Command to open links in different browsers
+
+
+start iexplore.exe www.google.com
+start www.google.com
+start chrome www.google.com
+start firefox.exe www.google.com
+start microsoft-edge: www.google.com
+
+Step 03: Save as the file in All files
+Step 04: Save with .bat
+
+Step 05: We can the see the batch file icon in saved path
+Step 06: Double click to run the program
