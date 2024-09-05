@@ -1,0 +1,16 @@
+Open share path link with batch script
+
+Step 01: Open notepad application
+
+Step 02: Paste the below given Command to open the 
+sharepath/local drive files
+
+
+	%SystemRoot%\explorer.exe "D:\Pictures\"
+
+
+Step 03: Save as the file in All files
+Step 04: Save with .bat
+Step 05: We can the see the batch file icon in saved path
+
+Step 06: Double click to run the program
