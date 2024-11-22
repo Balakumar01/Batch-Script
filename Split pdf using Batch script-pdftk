@@ -1,0 +1,25 @@
+:: Bala_Excel_Insights
+@echo off
+:: Enable delayed variable expansion
+setlocal enabledelayedexpansion
+
+:: Define input PDF path and output folder
+set "pdfPath="Path"      :: Change this to your PDF path
+set "outputFolder="Path"         :: Change this to your desired output folder
+
+:: Define the page ranges
+set ranges=1-2 3-4 5-6 7-8 9-10 11-12 13-14 15-16 17-18 19-20 21-22 23-24
+
+:: Loop through each range and split the PDF
+for %%r in (%ranges%) do (
+    set "outputFile=%outputFolder%Combined 3_%%r.pdf"
+    echo Processing: !outputFile!
+    pdftk "%pdfPath%" cat %%r output "!outputFile!"
+    echo Created: !outputFile!
+)
+
+:: Display the success message with emoji
+
+echo PDF SPLIT SUCCESSFUL.!!!
+
+pause
